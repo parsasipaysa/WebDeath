@@ -19,6 +19,7 @@ class start:
                 print(Fore.RED+pyfiglet.figlet_format("web death",font = 'epic'))
                 
             logo()
+            print("[*]"+Fore.YELLOW+" please enter site address\n")
             site = input(Fore.BLUE+" ┌─╼"+Fore.WHITE+" ["+Fore.RED+" # whois"+Fore.GREEN+" | "+Fore.YELLOW+"WEB-ADMIN"+Fore.WHITE+" ]"+Fore.BLUE+"""
  |
  └────> $  """+Fore.GREEN)
